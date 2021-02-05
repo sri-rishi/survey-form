@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1b1b32;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1.5rem;
+    color: white;
+}
+
+header{
+    margin: 5rem auto 1.2rem;
+}
+h1{
+    font-weight: 400;
+}
+
+#description {
+    font-style:italic;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+label{
+    display: block;
+    margin: 5px;
+    font-size: 20px;
+}
+form{
+    background-color: rgba(43, 43, 71, 0.616);
+    margin: 20px auto;
+    width: 40%;
+    padding: 40px;
+}
+
+.form-group{
+    text-align: left;
+    margin: 35px auto;
+}
+
+
+.form-input{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border-style: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 17px; 
+    color: rgb(165, 153, 153);
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+    box-sizing:content-box;
+}
+
+#email-label, #name-label, #number-label{
+    margin: 0 auto 10px;
+}
+
+.input-radio, .user-improved{
+    margin-left: -5px;
+
+}
+
+form p{
+    font-size: 20px;
+    margin: 0 auto 10px;
+}
+
+#text-area {
+    height: 20vh;
+    padding: 10px;
+}
+
+#submit{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    background-color: #37af65;
+}
+
+@media (max-width: 500px){
+    body{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    #description{
+        font-weight: 400;
+    }
+
+    form{
+        margin: 35px 0 0;
+        width: inherit;
+    }
+}
